@@ -5,9 +5,11 @@
 }
 :root{
   font-size: 65%;
+  
 }
 body{
   font-size: 1.6rem;
+  font-family: 'Inter', sans-serif;
   
 }
 
@@ -205,6 +207,7 @@ color: #0D0F16;
 .img{
   display: flex;
   justify-content: center;
+  padding: 0;
   
  
 }
@@ -275,11 +278,11 @@ color: #0D0F16;
 }
 .item2 {
   grid-area: two;
-  background-image: url(../img/apple.png);
+  background-image: url(../img/jubilee.png);
 }
-.item3 { grid-area: three; background-image: url(../img/jubilee.png); }
+.item3 { grid-area: three; background-image: url(../img/arm.png); }
 .item4 { grid-area: four; background-image: url(../img/heartfelt.png); }
-.item5 { grid-area: five; background-image: url(../img/arm.png);}
+.item5 { grid-area: five; background-image: url(../img/apple.png);}
 
 .project-grid {
 display: grid;
